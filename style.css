@@ -101,13 +101,15 @@ margin-top: 5px;
 #visit-us h2 {
     text-align: center;
     font-size: 10px;
+    font-weight: 100px;
     margin-top: 40px;
     color: black;
 }
 #corners h3,
-#families h3,
 #visit-us h3 {
     text-align: center;
+    font-size: 35px;
+    color: black;
     margin: 5px;
 } 
 
@@ -156,16 +158,44 @@ object-fit: cover;
 /*families*/
 #families {
     background: #B1D3CE;
-    padding-top: 40px;
-   
+    padding: 20px 0 0 0px;
+    margin-bottom: 20px;   
 }
-
+#families h3 {
+   text-align: center;
+   font-size: 35px;
+   font-weight: 200px;
+    margin: 5px;
+}
 .families-text {
     display: flex;
-    gap: 10px;
-    margin-top: 0;
-    padding: 0 50px;
+   justify-content: center;
+    font-size: 12px;
+    font-weight: 100px;
+    line-height: 20px;
+    gap: 30px;
+    margin: 0 20px;
+    padding: 0;
 }
 .families-text p {
     flex: 1;
+    max-width: 460px;
+}
+/* button*/
+.btn{
+background: #B1D3CE;
+display: block;
+width: fit-content;
+font-weight: bold;
+font-size: 10px;
+margin: 0 auto;
+padding: 10px 10px;
+border: 1.5px solid black;
+border-radius: 5px;
+}
+
+/*form*/
+#visit-us {
+    background: whitesmoke;
+    margin-top: 0px;
 }
