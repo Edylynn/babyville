@@ -95,26 +95,18 @@ margin-top: 5px;
     background: white;
     margin-top: 50px;
 }
-/*.main h2, h3 {
-background: white;
-font-family: Arial, Helvetica, sans-serif;
-margin: 0;
-text-align: center;
-}
-.main h4 {
-font-size: 8px;
-margin-bottom: 5px;
-}
-.main h4 {
-    font-size: 20px;  
-}
-*/
-#corners h2{
+
+#corners h2,
+#families h2,
+#visit-us h2 {
     text-align: center;
     font-size: 10px;
     margin-top: 40px;
+    color: black;
 }
-#corners h3 {
+#corners h3,
+#families h3,
+#visit-us h3 {
     text-align: center;
     margin: 5px;
 } 
@@ -161,4 +153,19 @@ object-fit: cover;
     padding: 0;
     color: #828282;
 }
+/*families*/
+#families {
+    background: #B1D3CE;
+    padding-top: 40px;
+   
+}
 
+.families-text {
+    display: flex;
+    gap: 10px;
+    margin-top: 0;
+    padding: 0 50px;
+}
+.families-text p {
+    flex: 1;
+}
